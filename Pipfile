@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 uvicorn = "*"
+jose = "*"
+python-multipart = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+
+[packages.passlib]
+extras = [ "bcrypt",]
